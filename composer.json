@@ -1,0 +1,25 @@
+{
+    "name": "baymaxrice/laravel-upload-file",
+    "description": "A upload tool for laravel application.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baymax\\LaravelUploadFile\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baymax",
+            "email": "baymaxrice@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": ["Baymax\\LaravelUploadFile\\ServiceProvider"]
+        }
+    }
+}
