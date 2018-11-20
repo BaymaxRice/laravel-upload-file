@@ -3,16 +3,16 @@
 return [
 
     // 是否开启缓存
-    'tmp' => true;
+    'tmp' => true,
 
     'img' => [
         // 支持格式
-        'supported_formats' => ['jpg', 'png', 'bmp', 'jpeg', 'gif'];
-    ];
+        'supported_formats' => ['jpg', 'png', 'bmp', 'jpeg', 'gif'],
+    ],
 
     'file' => [
         // 支持格式
-        'supported_formats' => ['doc', 'exe', 'pdf'];
-    ];
+        'supported_formats' => ['doc', 'exe', 'pdf'],
+    ],
 
 ];
