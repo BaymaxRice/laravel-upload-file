@@ -8,7 +8,7 @@
 
 - 发布配置文件
 
-`php artisan vendor:publish --provider="Baymax\LaravelUploadFile\LaravelServiceProvider"`
+`php artisan vendor:publish --provider="Baymax\LaravelUploadFile\UploadFileServiceProvider"`
 
 - 系统会自动创建一条路由： `/upload/file`
 

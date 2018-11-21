@@ -19,7 +19,7 @@
     ],
     "extra": {
         "laravel": {
-            "providers": ["Baymax\\LaravelUploadFile\\ServiceProvider"]
+            "providers": ["Baymax\\LaravelUploadFile\\UploadFileServiceProvider"]
         }
     }
 }
