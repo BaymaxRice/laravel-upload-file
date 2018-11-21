@@ -1,3 +1,3 @@
 <?php
 
-Route::post('upload/img', '\Baymax\LaravelUploadFile\UploadFileController@index');
+Route::post('upload/file', '\Baymax\LaravelUploadFile\UploadFileController@index');
