@@ -18,10 +18,10 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__ . '/routes.php');
         $this->publishes([
-                __DIR__.'/upload-file.php' => config_path('upload-file.php'),
-            ]);
+            __DIR__ . '/upload-file.php' => config_path('upload-file.php'),
+        ]);
 
     }
 
@@ -31,7 +31,7 @@ class ServiceProvider extends LaravelServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/upload-file.php', 'upload-file'
+            __DIR__ . '/upload-file.php', 'upload-file'
         );
     }
 }
