@@ -11,7 +11,7 @@ namespace Baymax\LaravelUploadFile;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
-class ServiceProvider extends LaravelServiceProvider
+class UploadFileServiceProvider extends LaravelServiceProvider
 {
     /**
      * Bootstrap the application services.
